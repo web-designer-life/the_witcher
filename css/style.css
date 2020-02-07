@@ -72,6 +72,15 @@ body {
     animation-delay: 0.2s;
 }
 
+.rating-stars {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    margin-right: 5px;
+}
+
 .rating-number {
     font-size: 12px;
     line-height: 14px;
