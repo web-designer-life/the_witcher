@@ -1,3 +1,7 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'MasonChronicles';
     src: url('../sfonts/MasonChronicles.woff') format('woff'),
@@ -240,9 +244,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
-    position: absolute;
-    top: 50%;
-    right: -35px;
 }
 
 .swiper-container {
