@@ -161,7 +161,7 @@ body {
     border-radius: 50%;
     left: -16px;
     top: -16px;
-    animation: pulse 0.8s ease-in-out 0.95s infinite;
+    animation: pulse 0.8s ease-in-out 0.4s infinite;
 }
 
 .card {
