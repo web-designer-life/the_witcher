@@ -1,12 +1,12 @@
 var mySwiper = new Swiper('.swiper-container', {
-    slidesPerView : 1,
+    slidesPerView: 1,
     loop: true,
     navigation: {
         nextEl: '.arrow',
       },
       breakpoints: {
-        539.98: {
-          slidesPerView: 2
+        540: {
+          slidesPerView: 2,
         }
       }
 });
@@ -16,4 +16,4 @@ var menu = document.querySelector('.header');
 menuButton.addEventListener('click', function() {
   menuButton.classList.toggle('menu-button-active'); 
   menu.classList.toggle('header-active'); 
-})
+});

@@ -3,12 +3,18 @@
 }
 
 @font-face {
-    font-family: 'MasonChronicles';
-    src: url('../sfonts/MasonChronicles.woff') format('woff'),
-         url('../fonts/MasonChronicles.woff2') format('woff2');
+    font-family: 'MasonChronicle';
+    src: url('../fonts/MasonChronicle.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-  }
+}
+  
+  @font-face {
+    font-family: 'MasonChronicles';
+    src: url('../fonts/MasonChronicles.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     background-color: #141218;
@@ -112,7 +118,7 @@ body {
     border: none;
     padding: 22px 72px;
     text-decoration: none;
-    animation-delay: 0.5s;
+    animation-delay: 0.35s;
 }
 
 .button:active {
@@ -288,7 +294,7 @@ body {
 }
 
 /* Responsive*/
-@media (max-width: 759.98px) {
+@media (max-width: 760px) {
     .play {
         display: none;
     }
@@ -312,7 +318,7 @@ body {
     }
 }
 
-@media (max-width: 539.98px) {
+@media (max-width: 540px) {
     .menu-button {
         display: block;
         position: absolute;
