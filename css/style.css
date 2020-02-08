@@ -76,7 +76,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    animation-delay: 0.2s;
+    animation-delay: 0.15s;
 }
 
 .rating-stars {
@@ -99,7 +99,7 @@ body {
     font-family: "MasonChronicles";
     font-size: 76px;
     line-height: 89px;
-    animation-delay: 0.3s;
+    animation-delay: 0.2s;
 }
 
 .main-description {
@@ -107,7 +107,7 @@ body {
     font-size: 14px;
     line-height: 150%;
     margin-bottom: 40px;
-    animation-delay: 0.35s;
+    animation-delay: 0.25s;
 }
 
 .button {
@@ -118,7 +118,7 @@ body {
     border: none;
     padding: 22px 72px;
     text-decoration: none;
-    animation-delay: 0.35s;
+    animation-delay: 0.2s;
 }
 
 .button:active {
@@ -143,6 +143,7 @@ body {
     border: none;
     position: relative;
     margin: auto;
+    animation-delay: 0.3s;
 }
 
 .play-img {
@@ -160,7 +161,7 @@ body {
     border-radius: 50%;
     left: -16px;
     top: -16px;
-    animation: pulse 0.8s ease-in-out 1.2s infinite;
+    animation: pulse 0.8s ease-in-out 0.95s infinite;
 }
 
 .card {
