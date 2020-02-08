@@ -257,8 +257,8 @@ body {
 }
 
 .swiper-container {
-    max-width: 420px;
-    margin-left: 20px;
+    max-width: 400px;
+    margin-left: 0px;
 }
 
 .footer {
@@ -414,7 +414,7 @@ body {
 
     .swiper-container {
         width: 80%;
-        max-width: 180px;
+        max-width: 200px;
     }
 
     .main-content {
